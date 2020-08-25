@@ -9,7 +9,7 @@ describe Student do
     expect(@student).to be_valid
   end
 
-  it 'has a to_s instance method' do
-    expect(@student.to_s).to eq("Daenerys Targaryen")
+  it 'has a full_name instance method' do
+    expect(@student.full_name).to eq("Daenerys Targaryen")
   end
 end
